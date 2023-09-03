@@ -1,0 +1,11 @@
+# Module 1 - Introduction to Redux
+Steps:
+1. Create a Store for that we need "configureStore" from @reduxjs/toolkit
+2. Inside of the configureStore we need to create Reducer which contain the slice.
+3. Wrap the application with Redux Provider and pass the store as a value;
+4. After that we need to create slice for ever feature 
+    a. To create slice we need  "createSlice"     from @reduxjs/toolkit
+    b.In createSlice function we need to mention 3 things Name,InitialState and Reducers
+    c. Inside of the reducers we have to mention  all the business logic.
+5. We can get the action using "useSelector" from react-redux;and can apply the action where we want using "useDispatch"
+6. 
