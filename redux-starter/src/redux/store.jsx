@@ -2,7 +2,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from './features/counter/counterSlice'
 
-import logger from 'redux-logger'
+import logger from './middlewares/logger'
 
 
 
